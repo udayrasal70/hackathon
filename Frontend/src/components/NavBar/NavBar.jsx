@@ -2,6 +2,36 @@ import "./NavBar.css"
 
 function NavBar() {
 
+    // const navigate = useNavigate()
+
+    // const onAllMovies = async () => {
+    //     navigate("/allMovies")
+    // }
+
+    // const onMyReviews = async () => {
+    //     navigate("/myReview")
+    // }
+
+    // const onShareReview = async () => {
+    //     navigate("/shareReview")
+    // }
+
+    // const onAllReviews = async () => {
+    //     navigate("/allReview")
+    // }
+
+    // const onEditProfile = async () => {
+    //     navigate("/editProfile")
+    // }
+
+    // const onChangePassword = async () => {
+    //     navigate("/changePassword")
+    // }
+
+    // const onLogout = async () => {
+    //     navigate("/login")
+    // }
+
     return <>
         <div>
             {/* Changed from navbar-light/bg-light to navbar-dark/bg-dark as seen in the image */}
@@ -19,30 +49,30 @@ function NavBar() {
                         {/* Left-aligned navigation links */}
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{ '--bs-scroll-height': '100px' }}>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">All Movies</a>
+                                <a class="nav-link" href="/allMovies">All Movies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">My Reviews</a>
+                                <a class="nav-link" href="/myReview">My Reviews</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shared With Me</a>
+                                <a class="nav-link" href="/shareReview">Shared With Me</a>
                             </li>
                             <li class="nav-item">
                                 {/* Made "All Reviews" active as it appears to be the current page in the image */}
-                                <a class="nav-link active" aria-current="page" href="#">All Reviews</a>
+                                <a class="nav-link active" aria-current="page" href="/allReview">All Reviews</a>
                             </li>
                         </ul>
 
                         {/* Right-aligned utility links (Edit Profile, Logout, etc.) */}
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Edit Profile</a>
+                                <a class="nav-link" href="/editProfile">Edit Profile</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Change Password</a>
+                                <a class="nav-link" href="/changePassword">Change Password</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link logout-link" href="#">Logout</a>
+                                <a class="nav-link logout-link" href="/login">Logout</a>
                             </li>
                         </ul>
 

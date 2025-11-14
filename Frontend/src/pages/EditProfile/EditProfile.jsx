@@ -1,7 +1,10 @@
 import "./EditProfile.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function EditProfile() {
     return <>
+
+        <NavBar></NavBar>
 
         <div className="register-container">
 

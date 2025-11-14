@@ -1,7 +1,10 @@
 import "./ChangePassword.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function ChangePassword() {
     return <>
+
+        <NavBar></NavBar>
 
         <div className="register-container">
 

@@ -1,7 +1,12 @@
 import "./AllReviews.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function AllReviews() {
+
+    
     return <>
+
+        <NavBar></NavBar>
 
         <div className="container mt-5">
 

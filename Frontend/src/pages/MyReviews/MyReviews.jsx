@@ -1,8 +1,9 @@
 import "./MyReviews.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function MyReviews() {
     return <>
-
+        <NavBar></NavBar>
         <div className="container mt-5">
 
             <h3>My Reviews</h3>
