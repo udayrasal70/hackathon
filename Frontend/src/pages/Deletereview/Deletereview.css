@@ -1,0 +1,61 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.deleteheader{
+    background: red;
+    
+}
+.h1{
+    margin: auto;
+    color: aliceblue;
+}
+.reviewheader{
+    margin-top: 100px;
+}
+.rating-badge {
+    background-color: #007bff;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.deletewarning{
+    margin-top: 50px;
+     text-align: center;
+    background-color:rgb(215, 204, 204)
+   
+}
+.redtext{
+     margin-top: 50px;
+    color: #b51b1d;
+     
+    margin-inline-start: 30px;;
+}
+.btn-primary {
+    margin-right: 5px;
+    margin-left: 40px;
+    margin-block-start: 50px;
+    background-color: #e63642;
+    color: white;
+    
+}
+.btline{
+    color: #684e50;
+   text-align: center;
+}
+
+.btn-secondary {
+    margin-left: 5px;
+    background-color: #6c757d;
+    color: white;
+}
+.actions {
+    margin-top: 20px;
+}
