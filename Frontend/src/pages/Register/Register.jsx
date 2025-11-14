@@ -1,11 +1,11 @@
 import "./Register.css"
 
-function Register(){
+function Register() {
     return <>
-    `
-    <h1>SignUp</h1>
+        `
+        <h1>SignUp</h1>
 
-    `
+        `
     </>
 }
 
