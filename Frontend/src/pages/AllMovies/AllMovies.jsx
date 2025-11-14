@@ -1,7 +1,10 @@
 import "./AllMovies.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function AllMovies() {
     return <>
+
+        <NavBar></NavBar>
 
         <div className="container mt-5">
 

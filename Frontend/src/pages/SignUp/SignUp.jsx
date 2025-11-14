@@ -1,4 +1,5 @@
 import "./SignUp.css"
+import NavBar from "../../components/NavBar/NavBar"
 
 function SignUp() {
     return <>
@@ -43,7 +44,7 @@ function SignUp() {
 
                     <br />
                     <div className="signin-p">
-                        <p>Already signed up? <a href="/signin">Sign In</a></p>
+                        <p>Already signed up? <a href="/login">Sign In</a></p>
                     </div>
 
                 </form>

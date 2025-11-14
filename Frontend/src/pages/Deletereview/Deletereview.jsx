@@ -1,7 +1,10 @@
 import './Deletereview.css'
+import NavBar from "../../components/NavBar/NavBar"
 
 function Deletereview(){
     return(
+        <>
+        <NavBar></NavBar>
      <div className='container'>
         <div className='deleteheader'><h1 className='h1'>Delete review</h1></div><br />
         <div className='review-header'><p><b>Review for Titanic</b><span class="rating-badge">9/10</span><br />
@@ -20,6 +23,7 @@ function Deletereview(){
         </div>
 
      </div>
+     </>
     )
 }
 

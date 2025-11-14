@@ -1,9 +1,12 @@
 
 import './Createreview.css'
+import NavBar from "../../components/NavBar/NavBar"
 
 function Createreview(){
 
     return(
+        <>
+        <NavBar></NavBar>
          <div class="container">
         <h1>Create Review for : Titanic</h1>
 
@@ -26,6 +29,7 @@ function Createreview(){
             <button class="btn-secondary" >Cancel</button>
         </div>
     </div>
+    </>
 
 
 
