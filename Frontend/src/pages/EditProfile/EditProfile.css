@@ -1,0 +1,103 @@
+/* Ensure the added classes support the top-to-bottom stack within the flex items */
+.name-fields {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+
+/* --- YOUR MAIN STYLES (Slightly adjusted) --- */
+
+.register-container {
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.main h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="datetime-local"],
+Added this input type select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    text-align: left;
+}
+
+button[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+
+
+    width: 200px;
+    height: 35px;
+    font-size: 0.9rem;
+}
+
+
+.small-submit-btn {
+    
+    padding: 8px 16px; 
+    
+    font-size: 0.9rem; 
+    
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.signin-p a {
+    color: #4caf50;
+    /* Match link color to your theme */
+    text-decoration: none;
+    font-weight: bold;
+}
