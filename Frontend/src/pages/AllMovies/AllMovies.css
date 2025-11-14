@@ -1,0 +1,42 @@
+/* AllReviews.css */
+
+.custom-btn-size {
+    width: 50px;
+    height: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.custom-btn-div1 {
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+}
+
+.custom-title {
+    color: black;
+    /* A specific shade of purple */
+    font-weight: 700;
+    /* Extra bold */
+}
+
+
+
+.custom-released-date {
+    color: black;
+    font-size: medium;
+    /* A specific shade of purple */
+    font-weight: 100;
+    /* Extra bold */
+}

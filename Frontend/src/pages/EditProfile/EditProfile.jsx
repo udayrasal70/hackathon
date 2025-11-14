@@ -1,15 +1,18 @@
-import "./Register.css"
+import "./EditProfile.css"
 
-function Register() {
+function EditProfile() {
     return <>
 
         <div className="register-container">
 
             <div className="main">
-                <h2>Sign-Up</h2>
+
                 <form action="">
 
-                    
+                    <label>
+                        <h4><b>Edit Profile</b></h4>
+                    </label>
+                    <br />
                     <div className="name-fields">
                         <div className="field-group">
                             <label htmlFor="first">First Name:</label>
@@ -30,21 +33,16 @@ function Register() {
                     <label htmlFor="calendar">Calendar:</label>
                     <input type="datetime-local" id="Test_DatetimeLocal" name="calendar" />
 
-                    <label htmlFor="password">Password:</label>
-                    <input type="password" id="password" name="password" />
-
-                    <label htmlFor="password">Confirm Password:</label>
-                    <input type="password" id="password" name="password" />
-
-                    <button type="submit">
-                        SignUp
-                    </button>
-
-                    
                     <br />
-                    <div className="signin-p">
-                        <p>Already signed up? <a href="/signin">Sign In</a></p>
-                    </div>
+
+                    <label>
+                        
+                        <button type="submit" className="small-submit-btn">Submit Changes</button>
+                    </label>
+
+
+                    <br />
+
 
                 </form>
             </div>
@@ -52,4 +50,4 @@ function Register() {
     </>
 }
 
-export default Register
+export default EditProfile
